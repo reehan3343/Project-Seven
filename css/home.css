@@ -1,0 +1,73 @@
+/* Header CSS Start */
+header {
+    padding: 94px 0 80px;
+    background: url(/images/home_background.png);
+    background-size: cover;
+}
+header .icon {
+    border: 4px solid #e6f2f1;
+    width: 64px;
+    height: 64px;
+    color: #0aa195;
+    font-size: 20px;
+}
+header h1 {
+    font-size: 46px;
+    max-width: 500px;
+}
+header h6 {
+    max-width: 560px;
+}
+header ul .dot {
+    color: #0aa195 !important;
+    font-size: 9px;
+}
+header .header_btn {
+    background-color: #0aa195;
+}
+/* Header CSS End */
+
+
+/* Brand CSS Start */
+.brand {
+    padding: 80px 0;
+}
+.brand .image {
+    transition: 0.4s;
+}
+.brand .image:hover {
+    transform: scale(1.04);
+}
+/* Brand CSS End */
+
+
+/* Services Start */
+.service {
+    padding: 80px 0;
+}
+.service h1 {
+    font-size: 40px;
+    position: relative;
+}
+.service h1 span {
+    position: absolute;
+    top: -14px;
+    width: 78px;
+    height: 78px;
+    z-index: -1;
+    background-color: #c3e6e478;
+}
+.service p {
+    font-size: 18px;
+    max-width: 580px;
+}
+.service .item .icon {
+    background-color: #0aa195;
+    color: #ffffffd9;
+    width: 84px;
+    height: 84px;
+}
+.service .item h6 {
+    max-width: 328px;
+}
+/* Services End */
