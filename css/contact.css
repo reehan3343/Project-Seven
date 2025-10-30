@@ -1,0 +1,52 @@
+/* Header CSS Start */
+header {
+    padding: 124px 0 80px;
+    background: url(/images/about/bg/about.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    font-size: 40px;
+}
+header h6 {
+    margin-bottom: 30px;
+}
+header .header_btn {
+    background-color: #0aa195;
+}
+/* Header CSS End */
+
+
+/* Contact CSS Start */
+.contact {
+    padding: 80px 0;
+}
+.contact form {
+    max-width: 460px;
+}
+.contact form .input_group input:focus, .contact form .input_group textarea:focus {
+    box-shadow: none;
+    border: 1px solid #0aa195;
+}
+.contact form button {
+    background-color: #0aa195;
+}
+/* Contact CSS End */
+
+
+/* Info CSS Start */
+.info {
+    padding: 80px 0;
+}
+.info h4 {
+    font-size: 24px;
+}
+.info .item .image {
+    background-color: #0aa1952e;
+    max-width: 56px;
+}
+.info .item .image img {
+    width: 50%;
+    height: 56px;
+}
+/* Info CSS End */
